@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container{
+    background-color:#1e2343;
+    width: 100vw;
+    min-height: 100vh;
+    /* overflow-x: hidden; */
+}
+
+.oval_shape{
+    width: 50vmax;
+    height: 35vmax;
+    background-color: #1e2678;
+    border-radius: 90%;
+    position: absolute;
+    right: 5%;
+    top: 0%;
+    margin-right: -15vmax;
+    margin-top: -10vmax;
+    box-shadow: 0 0 50px #000000;
+}
+
+
+.oval_shape_2{
+    width: 40vmax;
+    height: 35vmax;
+    background-color: #1e2678;
+    border-radius: 90%;
+    position: absolute;
+    left: 0%;
+    top: 70%;
+    margin-left: -15vmax;
+    margin-top: -10vmax;
+    box-shadow: 0 0 50px #000000;
+
+}
+
+
+.middle_container{
+    width: 80%;
+    height: 80%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    box-shadow: 0 0 15px #000000;
+    display: flex;
+}
+
+.left_contianer{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#left_head{
+    width: 50%;
+    height: 15%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    border-top-left-radius: 15px;
+    /* box-shadow: 0 0 15px #000000; */
+}
+
+#left_head>h1{
+    font: 600 1.6vmax "montserrat";
+    margin-left: 6vmax;
+}
+
+#left_section{
+    width: 100%;
+    height: 85%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 6vmax;
+    border-bottom-left-radius: 15px;
+    text-align: start;
+}
+
+#left_section_heading_1{
+    margin-bottom: 1vmax;
+    font: 400 1vmax "montserrat";
+    color: #50aaec;
+    /* letter-spacing: 1px; */
+    word-spacing: 1px;
+    margin-top: 4vmax;
+}
+
+
+#left_section_largefont_heading{
+    margin-bottom: 1.5vmax;
+    font: 600 3.1vmax "gilroy";
+    color: black;
+    /* letter-spacing: 1px; */
+    word-spacing: 2px;
+}
+
+.left_section_button{
+    padding: 0.6vmax 2.1vmax;
+    background: linear-gradient(90deg,#fc5487,#fd7b67);
+    color: white;
+    font: 500 0.8vmax "montserrat";
+    margin: 0 2vmax 0 0 ;
+    border-radius: 22px;
+    margin-top: 1vmax;
+    border: none;
+    box-shadow: 0 0 5px #fd7b67;
+}
+
+.left_button_2{
+    padding: 0.6vmax 2.7vmax;
+    background: linear-gradient(90deg,#2d7ce5,#2faeec);
+    box-shadow: 0 0 5px #2faeec;
+}
+
+#right_section{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    /* background-color: pink; */
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 8px solid #ffffff;
+}
+
+#right_section>img{
+    width: initial;
+    position: absolute;
+    top: -1.7vmax;
+    right: -1vmax;
+    /* border-top-right-radius: 15px; */
+}
+
+#right_navbars{
+    border: 5px solid #ffffff;
+    /* border: none; */
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-top-right-radius: 18px;
+    position: absolute;
+    z-index: 1;
+    height: 15%;
+    width: 100%;
+    /* background: linear-gradient(90deg,#019e95,#019e95,#004e75,#004e75,#004e75); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#right_navbars>ul{
+    display: flex;
+    list-style-type: none ;
+    margin-left: 1.2vmax;
+    
+}
+
+li{
+    font: 500 0.9vmax "montserrat";
+    margin-left: 1.8vmax;
+    color: white;
+}
+
+.right_buttons{
+    padding: 0.5vmax 1.5vmax;
+    background-color: #004e75;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin-right: 1vmax;
+    font: 500 0.7vmax "montserrat";
+}
+
+.button_2{
+    background-color: transparent;
+    border: none;
+    margin-left: -1.5vmax;
+}
+
+#listening_png{
+    position: absolute;
+    left: 10%;
+    margin-top: 10vmax;
+}
+
+#listening_png_2{
+    position: absolute;
+    left: 43%;
+    margin-top: 22vmax;
+    transform: rotate(14deg);
+}
